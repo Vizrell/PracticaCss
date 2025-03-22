@@ -1,0 +1,109 @@
+body {
+   
+     background-image: url('pl.png');
+     background-size: cover;
+     background-position:center ;
+     background-repeat:no-repeat  ;
+     background-attachment:fixed ;
+     margin: 0;
+     display: flex;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#formulario {
+    
+    color: black;
+    font-size: 25px;
+    background-color:white;
+    border-style:inherit;
+    padding: 150px 150px 150px 150px;
+    margin-top: 150px;
+    margin-left: 250px;
+    width: 300px;
+    border-radius: 30px;
+    opacity: 0.8;
+    
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.user {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}   
+
+.pass {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.log {
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#registro {
+    
+    color: black;
+    font-size: 25px;
+    background-color:white;
+    border-style:inherit;
+    padding: 150px 150px 150px 150px;
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 300px;
+    border-radius: 30px;
+    opacity: 0.8;
+    }
+
+.name {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    
+}
+
+.lastName {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.date {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.email {
+    margin-bottom: 50px ;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+
+
