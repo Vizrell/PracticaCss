@@ -4,41 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=output.css>
-    <title>Document</title>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Aeorolineas los papus :v </title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+  </head>
 <body>
-<div class="bg-cover bg-left bg-no-repeat h-screen" style="background-image: url('../img/aventurate-a-viajar.jpg');" background-repeat: no-repeat;>
+<div class="bg-cover bg-left bg-no-repeat h-screen" style="background-image: url('../img/aventurate-a-viajr.jpg');" background-repeat: no-repeat;>
  
  
-  <div class="bg-blue-600 opacity-85 text-white text-center box-border size-25 p-5 display- rounded-xs border-2 border-none drop-shadow-lg>
-   <p class="text-2x5>Encuentra los mejores precios para tus viajes</p>
+  <div class="bg-lime-600 opacity-85 text-white text-center box-border size-25 p-10 display- rounded-xs border-2 border-none drop-shadow-lg
     
-    <nav class="container mx-auto">
-    <div class="nav-wrapper container mx-auto" >
-    <h2 class="text-2xl flex justify-end"><a href="../Log_in/Log_in.html"> Iniciar sesion/Registrarse</a></h2>
-      <ul class="flex justify-center space-x-10">
-      <li>Vuelos</li>
-      <li>Rastreo de vuelos</li>
-      <li>Ofertas de vuelo</li>|
-      <li>Hoteles</li>
-      <li>Renta de transportes</li>
-    </ul>
-    </nav>
-  
-  </div>
-  <div class="container mx-auto">
-    <div class="flex justify-center space-x-10 bg-black bg-opacity-60 p-5 rounded-lg mt-20 ml-64 mr-64 pr-1.5 ">
-      <div class="flex">
-        
-        <h2 class="text-white mr-4 mt-2">De:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg" type="text" placeholder="Origen">|
-        <h2 class="text-white mr-4 mt-2">A:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg" type="text" placeholder="Destino">|
-        <h2 class="text-white mr-4 mt-2">Ida:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg" type="date" placeholder="Agregar fecha de Ida">|
-        <h2 class="text-white mr-4 mt-2">Regreso:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg" type="date" placeholder="Agregar fecha de regreso">|   
-</div>
-  
-</div>
- mr-4 mt-2
+   <button class="place-items- text-2xl text-white hover:text-blue-200  transition-ease-in-out delay-150 hover:scale-110 duration-500"><a href="../Log_in/Log_in.html"> Iniciar sesion/Registrarse</a>
+    </button> 
+   <nav class="text-lg ">
+    <div class="container mx-auto" >
+      <ul class="flex justify-center space-x-10 ">
+        <li class="relative group flex-justify-end space-x-2">
+          
+          <button class=" text-white hover:text-blue-200 flex items-center transition-ease-in-out delay-150 hover:scale-150 duration-500 "> 
+            Compra de vuelos 
+            <i class="fa-solid fa-money-bill pl-3"></i>
 
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24 ">
+          </svg>
+        </button>
+        
+        <div class="hidden group-hover:block absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 transition duration-100 ease-in-out ">
+          <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Sencillo</a>
+          <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Multidestino</a>
+      
+          <li class="relative group flex-justify-end space-x-2">
+            
+            <button class=" text-white hover:text-blue-200 flex items-center transition-ease-in-out delay-150 hover:scale-150 duration-500 ">
+               
+              Rastreo de vuelos
+              <div><a href="#" class="icon"><i class="fa-solid fa-plane-departure pl-3"></i></a></div>
+              
+              
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24 ">
+            </svg>
+          </button>
+          
+          <div class="hidden group-hover:block absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 transition duration-100 ease-in-out ">
+            <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Tiempo estimado</a>
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Tiempo restante</a>
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Inicio(s) de vuelo(s) (tiempos de partida)</a>
+            <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Puntos medios</a>
+            <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Fin de vuelo</a>
+            <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Codigo del boleto</a>
+            
+
+            <li class="relative group flex-justify-end space-x-2">
+              <button class=" text-white hover:text-blue-200 flex items-center transition-ease-in-out delay-150 hover:scale-150 duration-500 "> 
+                Ofertas de vuelos
+
+                <i class="fa-solid fa-dollar-sign pl-3"></i>
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24 ">
+              </svg>
+            </button>
+            
+            <div class="hidden group-hover:block absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 transition duration-100 ease-in-out ">
+              <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Ofertas festivas</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Ofertas de estacion</a>
+              
+
+              <li class="relative group flex-justify-end space-x-2">
+                <button class=" text-white hover:text-blue-200 flex items-center transition-ease-in-out delay-150 hover:scale-150 duration-500 "> 
+                  Hoteles
+
+                  <i class="fa-solid fa-hotel pl-3"></i>
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24 ">
+                </svg>
+              </button>
+              
+              <div class="hidden group-hover:block absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 transition duration-100 ease-in-out ">
+                <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Renta de hosdepaje</a>
+                <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Lugar de hospedaje</a>
+                
+
+
+                <li class="relative group flex-justify-end space-x-2">
+                  <button class=" text-white hover:text-blue-200 flex items-center transition-ease-in-out delay-150 hover:scale-150 duration-500 "> 
+                    Renta de transportes
+                    <i class="fa-solid fa-car pl-3"></i>
+
+
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24 ">
+                  </svg>
+                </button>
+                
+                <div class="hidden group-hover:block absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 transition duration-100 ease-in-out ">
+                  <a href="#" class="block px-1 py-2 text-gray-800 hover:bg-gray-100">Vehiculos</a>
+        </div>
+        </div>
+         </li>
+         
+      </ul>
+</div>
+   
+
+  
+<div class="container mx-auto ">
+    <div class="flex justify-center space-x-10 bg-slate-600 bg-opacity- p-5 rounded-lg mt-28 ml-64 mr-64 mr-5 ">
+      <ul class="flex justify-center space-x-10 pb-9 ">
+        
+        <li class="text-white mr-4 mt-2">De:</h2><input class="p-2 mb-2 bg-gray-200  rounded-lg text-black " type="text" placeholder="Origen">
+        <li class="text-white mr-4 mt-2">A:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg text-black " type="text" placeholder="Destino">
+        <li class="text-white mr-4 mt-2">Ida:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg text-black " type="date" placeholder="Agregar fecha de Ida">
+        <li class="text-white mr-4 mt-2">Regreso:</h2><input class="p-2 mb-2 bg-gray-200 rounded-lg text-black " type="date" placeholder="Agregar fecha de regreso">
+        
+        </ul>
+        
+  <button class="bg-slate-500 text-lg display:flex justify-end  text-white mt-10 mb-10 pr-5 pl-4 mr-4 shadow-md shadow-white ring ring-|ring-offset-2 rounded-2xl "> Buscar
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+</div>
+
+
+</nav>
+<div class="bg-opacity-90 p-8 rounded-lg mt-20 m-64 m-64 pr-1.5 container mx-auto gap-20 columns-3xs  grid-flow-col gap-4  ">
+  
+  <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+    <div class="mb-4 bg-gray-200 ">
+      <img class="relative size-72 row-span-3 " src="../img/tij.jpg" alt="tijuana.jpg">
+        <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">VUELO</div>
+        <h3 class="text-xl font-bold text-gray-800 mb-1 ml-3">Vuelos a Tijuana</h3>
+        <p class="text-gray-600 mb-4 ml-3">Partiendo desde Ciudad de México</p>
+        <p class="text-gray-500 mb-2 ml-3">Por Cumpañeritos Travel</p>
+        
+        <div class="bg-gray-100 p-2 rounded inline-block mb-4 ml-3">
+            <span class="text-gray-700 font-medium">Redondo</span>
+        </div>
+    </div>  
+        <p class="text-gray-600 mb-1 ml-3">Precio ida y vuelta desde</p>
+        <p class="text-2xl font-bold text-violet-600 ml-3 pb-2">MXN$ 1,906</p>
+      </div>
+
+      <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+        <div class="mb-4 bg-gray-200 ">
+          <img class="relative size-72 row-span-3 " src="../img/acapulco.jpg" alt="tijuana.jpg">
+            <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">VUELO</div>
+            <h3 class="text-xl font-bold text-gray-800 mb-1 ml-3">Vuelos a Acapulco</h3>
+            <p class="text-gray-600 mb-4 ml-3">Partiendo desde Guadalajara</p>
+            <p class="text-gray-500 mb-2 ml-3">Por Cumpañeritos Travel</p>
+            
+            <div class="bg-gray-100 p-2 rounded inline-block mb-4 ml-3">
+                <span class="text-gray-700 font-medium">Redondo</span>
+            </div>
+        </div>  
+            <p class="text-gray-600 mb-1 ml-3">Precio ida y vuelta desde</p>
+            <p class="text-2xl font-bold text-violet-600 ml-3 pb-2">MXN$ 2,700</p>
+          </div>
+
+          <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+            <div class="mb-4 bg-gray-200 ">
+              <img class="relative size-72 row-span-3 " src="../img/sonora.jpg" alt="tijuana.jpg">
+                <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">VUELO</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-1 ml-3">Vuelos a Sonora</h3>
+                <p class="text-gray-600 mb-4 ml-3">Partiendo desde Chihuahua</p>
+                <p class="text-gray-500 mb-2 ml-3">Por Cumpañeritos Travel</p>
+                
+                <div class="bg-gray-100 p-2 rounded inline-block mb-4 ml-3">
+                    <span class="text-gray-700 font-medium">Redondo</span>
+                </div>
+            </div>  
+                <p class="text-gray-600 mb-1 ml-3">Precio ida y vuelta desde</p>
+                <p class="text-2xl font-bold text-violet-600 ml-3 pb-2">MXN$ 1,750</p>
+              </div>
+
+              <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+                <div class="mb-4 bg-gray-200 ">
+                  <img class="relative size-72 row-span-3 " src="../img/cuernavaca.png" alt="tijuana.jpg">
+                    <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">VUELO</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-1 ml-3">Vuelos a Cuernavaca</h3>
+                    <p class="text-gray-600 mb-4 ml-3">Partiendo desde Quintana Ro</p>
+                    <p class="text-gray-500 mb-2 ml-3">Por Cumpañeritos Travel</p>
+                    
+                    <div class="bg-gray-100 p-2 rounded inline-block mb-4 ml-3">
+                        <span class="text-gray-700 font-medium">Sencillo</span>
+                    </div>
+                </div>  
+                    <p class="text-gray-600 mb-1 ml-3">Precio ida</p>
+                    <p class="text-2xl font-bold text-violet-600 ml-3 pb-2">MXN$ 850</p>
+                  </div>
+
+                  <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+                    <div class="mb-4 bg-gray-200 ">
+                      <img class="relative size-72 row-span-3 " src="../img/nayarit.png" alt="tijuana.jpg">
+                        <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">VUELO</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-1 ml-3">Vuelos a Nayarit</h3>
+                        <p class="text-gray-600 mb-4 ml-3">Partiendo desde Tijuana</p>
+                        <p class="text-gray-500 mb-2 ml-3">Por Cumpañeritos Travel</p>
+                        
+                        <div class="bg-gray-100 p-2 rounded inline-block mb-4 ml-3">
+                            <span class="text-gray-700 font-medium">Sencillo</span>
+                        </div>
+                    </div>  
+                        <p class="text-gray-600 mb-1 ml-3">Precio ida y vuelta desde</p>
+                        <p class="text-2xl font-bold text-violet-600 ml-3 pb-2">MXN$ 1,150</p>
+                      </div>
+
+</div>
+
+
+  
+</div>
+
+
+
+
+ 
+</div>
+</div>
+
+<!-- Apartado de paquetes  -->
+
+
+
+<div class="bg-opacity-90 p-8 rounded-lg mt-20 m-64 m-64 pr-1.5 container mx-auto columns-  grid-flow-col gap-9  ">
+  
+  <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+    <div class="bg-cover  bg-no-repeat " style="background-image: url('../img/paquete.jpg');" background-repeat: no-repeat;>
+      
+        <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">paquetes</div>
+        <h3 class="text-2xl font-bold text-red-500 mb-1 ml-3">Paquete familiar 4 personas con renta de hotel incluida por 1 semana</h3>
+        
+        <div class="bg-yellow-400 p-2 rounded inline-block mb-4 ml-3">
+            <span class="text-gray-700 font-medium">Paquete</span>
+        </div>
+    </div>  
+        <p class="text-2xl font-bold text-sky-400 ml-3 pb-2">MXN$ 7,500</p>
+      </div>
+
+      <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+        <div class="bg-cover  bg-no-repeat " style="background-image: url('../img/paquete.jpg');" background-repeat: no-repeat;>
+          
+            <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">paquetes</div>
+            <h3 class="text-2xl font-bold text-red-500 mb-1 ml-3">Paquete pareja para 2 semanas con hospedaje a hotel </h3>
+            
+            <div class="bg-yellow-400 p-2 rounded inline-block mb-4 ml-3">
+                <span class="text-gray-700 font-medium">Paquete</span>
+            </div>
+        </div>  
+            <p class="text-2xl font-bold text-sky-400 ml-3 pb-2">MXN$ 3,6006</p>
+          </div>
+          
+
+          <div class=" rounded-lg shadow-md overflow-hidden  transition-ease-in-out delay-150 hover:scale-110 duration-500">
+            <div class="bg-cover  bg-no-repeat " style="background-image: url('../img/paquete.jpg');" background-repeat: no-repeat;>
+              
+                <div class="uppercase text-sm font-semibold text-gray-500 mb-2 ml-1 p-2">paquetes</div>
+                <h3 class="text-2xl font-bold text-red-500 mb-1 ml-3">Paquete individual ida y vuelta para 3 semanas</h3>
+                
+                <div class="bg-yellow-400 p-2 rounded inline-block mb-4 ml-3">
+                    <span class="text-gray-700 font-medium">Paquete</span>
+                </div>
+            </div>  
+                <p class="text-2xl font-bold text-sky-400 ml-3 pb-2">MXN$ 1,900</p>
+              </div>
+
+             
+                  </div>
+
+                  
 
 </body>
 
